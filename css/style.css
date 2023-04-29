@@ -362,52 +362,52 @@ header nav .form i {
 /* End Design  */
 
 /* Start Portfolio */
-.portfolio {
+#portfolio {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
-.portfolio .shuffle {
+#portfolio .shuffle {
   display: flex;
   justify-content: center;
 }
-.portfolio .shuffle li {
+#portfolio .shuffle li {
   padding: 10px;
 }
-.portfolio .shuffle li:hover,
-.portfolio .shuffle li:first-child {
+#portfolio .shuffle li:hover,
+#portfolio .shuffle li:first-child {
   background-color: var(--main-color);
   color: white;
 }
-.portfolio .image-container {
+#portfolio .image-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 60px;
 }
-.portfolio .image-container .box {
+#portfolio .image-container .box {
   overflow: hidden;
   position: relative;
 }
-.portfolio .image-container .box:hover .caption {
+#portfolio .image-container .box:hover .caption {
   bottom: 0;
 }
-.portfolio .image-container .box:hover img {
+#portfolio .image-container .box:hover img {
   transform: rotate(3deg) scale(1.1);
 }
 @media (min-width: 768px) {
-  .portfolio .image-container .box {
+  #portfolio .image-container .box {
     width: 50%;
   }
 }
 @media (min-width: 1199px) {
-  .portfolio .image-container .box {
+  #portfolio .image-container .box {
     width: 25%;
   }
 }
-.portfolio .image-container .box img {
+#portfolio .image-container .box img {
   max-width: 100%;
   transition: 0.3s;
 }
-.portfolio .image-container .box .caption {
+#portfolio .image-container .box .caption {
   position: absolute;
   left: 0;
   padding: 20px;
@@ -416,14 +416,14 @@ header nav .form i {
   transition: 0.3s;
   bottom: -100%;
 }
-.portfolio .image-container .box .caption h4 {
+#portfolio .image-container .box .caption h4 {
   font-weight: normal;
   margin-bottom: 10px;
 }
-.portfolio .image-container .box .caption p {
+#portfolio .image-container .box .caption p {
   color: var(--main-color);
 }
-.portfolio .more {
+#portfolio .more {
   background-color: var(--main-color);
   color: white;
   padding: 15px 20px;
