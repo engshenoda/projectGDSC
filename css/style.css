@@ -567,19 +567,19 @@ header nav .form i {
 
 
 @media (max-width: 767px) {
-  .our-skills .testimonials .content {
+  .our-skills .Rate .content {
     flex-direction: column;
     text-align: center;
   }
-  .our-skills .testimonials .content img {
+  .our-skills .Rate .content img {
     margin: 0 auto 20px;
   }
 }
-.our-skills .testimonials .text {
+.our-skills .Rate .text {
   line-height: 1.8;
   border-bottom: 1px solid #ccc;
 }
-.our-skills .testimonials .text p {
+.our-skills .Rate .text p {
   color: #777;
   text-align: right;
   font-size: 14px;
