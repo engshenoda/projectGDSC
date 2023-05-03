@@ -506,15 +506,20 @@ header nav .form i {
 }
 .our-skills .container > div > h3 {
   margin: 0 0 30px;
-  font-weight: normal;
+  /* font-weight: normal; */
+  font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  color: rgb(71, 70, 70);
 }
 .our-skills .container > div > p {
-  color: #777;
+  color: rgb(213, 7, 7);
   line-height: 2;
   text-align: center;
   margin-bottom: 60px;
+  text-shadow: 3px 1px 6px rgba(0, 0, 0, 0.56);
+  -webkit-text-filt-cotor: transparent;
+  -webkit-text-stroke-width: 1px;
 }
 .our-skills .testimonials .content {
   display: flex;
@@ -526,6 +531,24 @@ header nav .form i {
   border-radius: 50%;
   margin-right: 50px;
 }
+.poor-img img{
+
+    width: 100%;
+    
+}
+.poor-img{
+
+    box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.3);
+    transition: .7s;
+    
+}
+.poor-img:hover{
+
+    transform: scale(105%,105%);
+   
+}
+
+
 @media (max-width: 767px) {
   .our-skills .testimonials .content {
     flex-direction: column;
