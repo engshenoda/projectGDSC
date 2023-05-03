@@ -442,11 +442,14 @@ header nav .form i {
 }
 
  .stats .container .box {
+  display: flex;
   position: relative;
   width: 350px;
   height: 350px; 
   background-color: #ffffff;
-  border-radius:25px;
+  border-radius:15px;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
  .container .box:hover {
@@ -474,7 +477,7 @@ header nav .form i {
   object-fit: cover;
 } 
 
-.container .box .content {
+.container .box .content2 {
   position: absolute;
   width: 100%;
   padding: 10px 30px;
@@ -486,17 +489,17 @@ header nav .form i {
   transition: 0.5s;
 }
 
-.container .box:hover .content {
+.container .box:hover .content2 {
   height: 350px;
   top: 130px;
 }
 
-.container .box .content h1 {
+.container .box .content2 h1 {
   font-size: 1.5em;
   font-weight: 700;
 }
 
-.container .box .content p {
+.container .box .content2 p {
   color: #333;
   font-size:0.9em;
 }
